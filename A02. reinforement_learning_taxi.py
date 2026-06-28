@@ -78,7 +78,7 @@ def test(env, q_table, n_tests=20):
 
         if terminated:
             success += 1
-            print(f"Successful: {success} / {n_tests}")
+            print(f"Successful: {success} / {n_tests}", end='\r')
 
 
 id = "Taxi-v4"

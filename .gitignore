@@ -4,3 +4,6 @@
 .vscode
 main.py
 *.npz
+00. playground.ipynb
+.venv
+*.npy
